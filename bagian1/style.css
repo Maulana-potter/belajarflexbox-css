@@ -1,0 +1,22 @@
+.container {
+  width: 600px;
+  height: 250px;
+  border: 5px solid black;
+  margin: 30px auto;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+}
+
+.container div {
+  background: #6feb84;
+  margin: 3px;
+  flex: 1;
+}
+
+.container div.dua {
+  flex-grow: 2;
+  align-self: center;
+}
